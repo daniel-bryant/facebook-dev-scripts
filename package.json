@@ -1,0 +1,25 @@
+{
+  "name": "facebook-dev-scripts",
+  "version": "1.0.0",
+  "description": "A collecion of script to help with Facebook Instant Games development.",
+  "homepage": "https://github.com/daniel-bryant/facebook-dev-scripts",
+  "bugs": "https://github.com/daniel-bryant/facebook-dev-scripts/issues",
+  "repository": {
+    "url": "https://github.com/daniel-bryant/facebook-dev-scripts",
+    "type": "git"
+  },
+  "author": "Daniel Bryant",
+  "license": "MIT",
+  "files": [
+    "bin",
+    "scripts"
+  ],
+  "bin": {
+    "facebook-dev-scripts": "./bin/facebook-dev-scripts.js"
+  },
+  "dependencies": {
+    "archiver": "^3.0.0",
+    "react-dev-utils": "^7.0.1",
+    "request": "^2.88.0"
+  }
+}
